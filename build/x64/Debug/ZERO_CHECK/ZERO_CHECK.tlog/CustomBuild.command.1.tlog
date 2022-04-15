@@ -1,0 +1,10 @@
+^D:\OPEN-SOURCE\FOLLY\BUILD\CMAKEFILES\EDE6D60D6616814D88EAE2F8651A9EE4\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/open-source/folly -BD:/open-source/folly/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/open-source/folly/build/hello_boost.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

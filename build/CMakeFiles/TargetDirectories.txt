@@ -1,0 +1,3 @@
+D:/open-source/folly/build/CMakeFiles/app.dir
+D:/open-source/folly/build/CMakeFiles/ALL_BUILD.dir
+D:/open-source/folly/build/CMakeFiles/ZERO_CHECK.dir
